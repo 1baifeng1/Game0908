@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attack Worm</string>
+    <string name="btnStart">开始游戏</string>
+    <string name="btnAbout">关于游戏</string>
+    <string name="btnScore">查看排名</string>
+    <string name="btnExit">退出游戏</string>
+    <string name="btnReturn">返回</string>
+    <string name="title_activity_level_page">LevelPage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="tvLevel">关卡</string>
+    <string name="title_activity_level1">Level1</string>
+    <string name="start">开始</string>
+    <string name="main">主函数</string>
+    <string name="fun">辅助函数(fun)</string>
+    <string name="xunhuan">循环(for)</string>
+    <string name="title_activity_leval1">Leval1</string>
+    <string name="title_activity_level2">Level2</string>
+    <string name="title_activity_level3">Level3</string>
+    <string name="title_activity_level4">Level4</string>
+    <string name="title_activity_level5">Level5</string>
+
+</resources>

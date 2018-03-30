@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybackground2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutPage" >
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="游戏说明"
+        android:textColor="@color/blue"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvYi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="    通过组合上部按钮，控制虫子的运动，使虫子最终吃完豆子，到达指定位置，完成该关卡。"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="       主函数：动作实现的主要区域，将上部按钮添加到主函数中，实现虫子按照预定路线行走。"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="       辅助函数(fun)：通过在主函数中添加辅助函数按钮，调用辅助函数，实现在主函数按钮不足的情况下让虫子进行运动。"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="       循环(for)：通过在主函数中添加循环按钮，调用循环语句，实现主函数中一个按钮进行3次重复。"
+        android:textColor="#000000" />
+
+</LinearLayout>

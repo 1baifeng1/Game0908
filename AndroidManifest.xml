@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game0908"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/douzi"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.game0908.BeginPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.game0908.LevelPage"
+            android:label="@string/title_activity_level_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.AboutPage"
+            android:label="@string/title_activity_about_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.Level1"
+            android:label="@string/title_activity_level1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.Level2"
+            android:label="@string/title_activity_level2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.Level3"
+            android:label="@string/title_activity_level3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.Level4"
+            android:label="@string/title_activity_level4"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.game0908.Level5"
+            android:label="@string/title_activity_level5"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

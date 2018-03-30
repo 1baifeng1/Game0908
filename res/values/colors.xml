@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="backHanshu">#D2B48C</color>
+    <color name="backYuanlai">#eeeeee</color>
+    <color name="blue">#000066</color>
+    <color name="zhizise">#dea32c</color>
+    <color name="biaoti">#dea32c</color>
+
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/douzibackground"
+    android:orientation="horizontal"
+    tools:context=".BeginPage" >
+
+      
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/proBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+	
+    <LinearLayout
+    	android:layout_width="220dp"
+    	android:layout_height="match_parent"
+    	android:layout_marginRight="20dp"
+    	android:gravity="center"
+    	android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/biaoti"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/btnStart" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnAbout" />
+
+        <!-- 
+        <Button
+            android:id="@+id/btnScore"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnScore" />
+         -->
+        
+    </LinearLayout>
+
+</LinearLayout>
